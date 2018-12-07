@@ -1,3 +1,4 @@
+require 'sassc-rails'
 require 'rails_admin/engine'
 require 'rails_admin/abstract_model'
 require 'rails_admin/config'
