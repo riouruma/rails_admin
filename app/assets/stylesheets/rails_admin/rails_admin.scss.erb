@@ -29,22 +29,18 @@
 
 @charset "UTF-8";
 
-<%
-  theme = ENV['RAILS_ADMIN_THEME'] || :default
-%>
-
 /***  Variables  ***/
 
 @import "rails_admin/custom/variables";
 @import "rails_admin/bootstrap/variables";
 @import "rails_admin/base/variables";
-@import "rails_admin/themes/<%= theme %>/variables";
+@import "rails_admin/themes/default/variables";
 
 /***  Mixins  ***/
 
 @import "rails_admin/bootstrap/mixins";
 @import "rails_admin/base/mixins";
-@import "rails_admin/themes/<%= theme %>/mixins";
+@import "rails_admin/themes/default/mixins";
 @import "rails_admin/custom/mixins";
 
 /*** Reset ***/
@@ -102,7 +98,7 @@
 /***  RailsAdmin Theming  ***/
 
 @import "rails_admin/base/theming";
-@import "rails_admin/themes/<%= theme %>/theming";
+@import "rails_admin/themes/default/theming";
 @import "rails_admin/custom/theming";
 
 
