@@ -1,6 +1,6 @@
 appraise "rails-4.0" do
   gem 'rails', '~> 4.0.0'
-  gem 'sass-rails', '~> 4.0.3'
+  gem 'sassc-rails'
   gem 'devise', '>= 3.2'
   gem 'test-unit'
   gem 'capybara', '>= 0.8', group: :test
@@ -69,7 +69,7 @@ end
 
 appraise "rails-4.2" do
   gem 'rails', '~> 4.2.0'
-  gem 'sass-rails', '~> 5.0'
+  gem 'sassc-rails'
   gem 'devise', '>= 3.4'
   gem 'capybara', '>= 0.8', group: :test
 
@@ -103,7 +103,7 @@ end
 
 appraise "rails-5.0" do
   gem 'rails', '~> 5.0.0'
-  gem 'sass-rails', '~> 5.0'
+  gem 'sassc-rails'
   gem 'devise', '~> 4.0'
 
   group :test do
@@ -131,7 +131,7 @@ end
 
 appraise "rails-5.1" do
   gem 'rails', '~> 5.1.0'
-  gem 'sass-rails', '~> 5.0'
+  gem 'sassc-rails'
   gem 'devise', '~> 4.0'
 
   group :test do
@@ -160,7 +160,7 @@ end
 
 appraise "rails-5.2" do
   gem 'rails', '~> 5.2.0'
-  gem 'sass-rails', '~> 5.0'
+  gem 'sassc-rails'
   gem 'devise', '~> 4.4'
 
   group :test do
@@ -183,7 +183,7 @@ end
 
 appraise "cancan" do
   gem 'rails', '~> 5.1.0'
-  gem 'sass-rails', '~> 5.0'
+  gem 'sassc-rails''
   gem 'devise', '~> 4.0'
 
   group :test do
